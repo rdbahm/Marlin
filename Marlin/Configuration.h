@@ -435,9 +435,9 @@
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
   //Geeetech A10 Stock Bed Actual Measured January 10 2019
-  #define DEFAULT_bedKp 75.01
-  #define DEFAULT_bedKi 14.53
-  #define DEFAULT_bedKd 96.78
+  #define DEFAULT_bedKp 95.46
+  #define DEFAULT_bedKi 18.50
+  #define DEFAULT_bedKd 123.17
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
@@ -940,7 +940,7 @@
 #define FILAMENT_RUNOUT_SENSOR
 #if ENABLED(FILAMENT_RUNOUT_SENSOR)
   #define NUM_RUNOUT_SENSORS   1     // Number of sensors, up to one per extruder. Define a FIL_RUNOUT#_PIN for each.
-  #define FIL_RUNOUT_INVERTING false // set to true to invert the logic of the sensor.
+  #define FIL_RUNOUT_INVERTING true // set to true to invert the logic of the sensor.
   #define FIL_RUNOUT_PULLUP          // Use internal pullup for filament runout pins.
   #define FILAMENT_RUNOUT_SCRIPT "M600"
 #endif
