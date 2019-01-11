@@ -595,8 +595,8 @@
    */
   //#define POWER_LOSS_RECOVERY
   #if ENABLED(POWER_LOSS_RECOVERY)
-    //#define POWER_LOSS_PIN   44     // Pin to detect power loss
-    //#define POWER_LOSS_STATE HIGH   // State of pin indicating power loss
+    #define POWER_LOSS_PIN CONTINUITY_PIN     // Pin to detect power loss
+    #define POWER_LOSS_STATE CONTINUITY_STATE   // State of pin indicating power loss
   #endif
 
   /**
