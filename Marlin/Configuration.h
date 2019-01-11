@@ -434,10 +434,10 @@
 
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
-  //Geeetech A10 Stock Bed
-  #define DEFAULT_bedKp 182.46
-  #define DEFAULT_bedKi 35.92
-  #define DEFAULT_bedKd 231.70
+  //Geeetech A10 Stock Bed Actual Measured January 10 2019
+  #define DEFAULT_bedKp 75.01
+  #define DEFAULT_bedKi 14.53
+  #define DEFAULT_bedKd 96.78
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
