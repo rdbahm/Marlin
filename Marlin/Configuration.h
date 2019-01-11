@@ -379,10 +379,10 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
-  // Geeetech A10
-  #define  DEFAULT_Kp 45.80
-  #define  DEFAULT_Ki 3.61
-  #define  DEFAULT_Kd 145.39
+  // Geeetech A10 Actual January 10 2019
+  #define  DEFAULT_Kp 22.71
+  #define  DEFAULT_Ki 2.48
+  #define  DEFAULT_Kd 52.10
 
   // Ultimaker
   //#define DEFAULT_Kp 22.2
